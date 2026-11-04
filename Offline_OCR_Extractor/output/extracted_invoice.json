@@ -1,0 +1,51 @@
+{
+    "invoice": {
+        "invoice_number": "RT-2024-1052",
+        "invoice_date": "14 October 2024",
+        "supplier_name": "RIVERTECH SUPPLIES LTD.",
+        "items": [
+            {
+                "description": "HOPE Pipe 110mm (6m length)",
+                "quantity": "50 pcs",
+                "unit_price": 1250.0,
+                "line_total": 62500.0
+            },
+            {
+                "description": "HDPE Elbow 90° 110mm",
+                "quantity": "20 pcs",
+                "unit_price": 450.0,
+                "line_total": 9000.0
+            },
+            {
+                "description": "HDPE Coupling 110mm",
+                "quantity": "30 pcs",
+                "unit_price": 300.0,
+                "line_total": 9000.0
+            },
+            {
+                "description": "Welding Service",
+                "quantity": "10 hrs",
+                "unit_price": 1500.0,
+                "line_total": 15000.0
+            },
+            {
+                "description": "Delivery Charge",
+                "quantity": "1 lot",
+                "unit_price": 5000.0,
+                "line_total": 5000.0
+            }
+        ],
+        "total_amount": 113565.0,
+        "subtotal": 100500.0,
+        "tax_amount": 13065.0,
+        "currency": "NPR"
+    },
+    "validation": {
+        "is_valid": true,
+        "errors": [],
+        "warnings": [
+            "Delivery quantity interpreted as '1 lot' because OCR did not clearly recognize the quantity."
+        ],
+        "calculated_item_sum": "100500.00"
+    }
+}
