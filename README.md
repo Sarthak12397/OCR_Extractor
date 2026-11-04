@@ -1,6 +1,6 @@
 # Invoice Extraction System
 
-An invoice extraction application that converts invoice images into structured JSON. This repository contains two independent implementations: an AI-powered extraction approach using Google Gemini and an offline OCR approach using Tesseract.
+An invoice extraction application that converts invoice images into structured JSON. This repository contains two independent implementations: an AI-powered approach using Google Gemini and an offline OCR approach using Tesseract.
 
 ## Project Overview
 
